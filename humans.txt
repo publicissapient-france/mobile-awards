@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+	Thibaud Cavin -- Mobile -- @ThibaudCAVIN
+	Anne Pedro -- Marketing
+	Yannick Grezinger -- UX -- @ygrenzinger
+	Jean Helou -- Backend -- @jeanhelou
+	Philippe Antoine -- HTML5 -- @PhilippeAntoine
+
+# THANKS
+
+    Xebia
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr

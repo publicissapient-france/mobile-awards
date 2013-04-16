@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]>    <html class="no-js iem7"> <![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Xebia Mobile Awards: Landing page</title>
+        <meta name="description" content="">
+        <meta name="author" content="Xebia IT Architects"/>
+        <meta name="reply-to" content="marketingn@xebia.fr"/>
+        <meta name="owner" content="Xebia IT Architects"/>
+        <meta name="description" content="Xebia Mobile Awards" />
+        <meta name="keywords" content="Xebia Mobile Awards, Web, Mobile" />
+        <meta name="content-language" content="fr"/>
+        <meta name="robots" content="follow,index,all"/>
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="cleartype" content="on">
+
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touch/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touch/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="img/touch/apple-touch-icon-57x57-precomposed.png">
+        <!-- <link rel="shortcut icon" href="img/touch/apple-touch-icon.png"> -->
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+        <!-- Tile icon for Win8 (144x144 + tile color) -->
+        <meta name="msapplication-TileImage" content="img/touch/apple-touch-icon-144x144-precomposed.png">
+        <meta name="msapplication-TileColor" content="#222222">
+
+
+        <!-- For iOS web apps. Delete if not needed. https://github.com/h5bp/mobile-boilerplate/issues/94 -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="">
+
+        <!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
+        <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.countdown.js"></script>
+    <script type="text/javascript" src="scripts/jquery.countdown-fr.js"></script>
+
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu:700italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,italic,bold,bolditalic&amp;subset=Latin" />
+        <link rel="stylesheet" type="text/css" href="styles/smallreset.css">
+        <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+        <link rel="stylesheet" type="text/css" href="styles/boilerplate.css">
+        <link rel="stylesheet" type="text/css" href="styles/fontawesome.css">
+        <link rel="stylesheet" type="text/css" href="styles/xma.css" media="screen, handheld" />
+        <link rel="stylesheet" type="text/css" href="styles/enhanced.css" media="screen  and (min-width: 40.5em)" />
+        <!--[if (lt IE 9)&(!IEMobile)]>
+        <link rel="stylesheet" type="text/css" href="enhanced.css" />
+        <![endif]-->
+
+        <script src="scripts/vendor/modernizr-2.6.2.min.js"></script>
+        <script type="text/javascript">
+$(function () {
+  var austDay = new Date();
+  austDay = new Date(austDay.getFullYear() + 1,  1 -9   , -16);
+  $('#defaultCountdown').countdown({until: austDay, format: 'DHMS',}); 
+});
+</script>
+    </head>
+    <body> 
+    <div class="row">
+        <div class="big-logo-bg">
+          <div class="cell big-logo">
+            <img src="img/xebia-mobile-awards-logo-big.png">
+          </div>
+        </div>
+    </div>
+    <div class="row xebia">
+        <div class="cell"> 
+            <p><strong>Dans quelques jours le site des Xebia Mobile Awards sera en ligne</strong></p>
+            <div class="row countdown">
+                <div id="stylized" class="subscribe"></div>
+                <div class="timer-zone">
+             <div id="defaultCountdown"></div>
+        </div>
+      </div>  
+      <br>
+            <p>Ce sera l'occasion pour vous de répondre à des questions techniques sur le thème du développement mobile et, si vous êtes assez talentueux, de remporter des lots d'exception et participer à la grande soirée des Xebia Mobile Awards avec des intervenants reconnus, un buffet à volonté et de nombreuses surprises.</p>
+        </div>
+    </div>
+<div class="foot">
+<a href="https://twitter.com/XebiaFr"><i class="icon-twitter"></i></a>
+<a href="http://blog.xebia.fr/"><i class="icon-rss"></i></a>
+<a href="https://plus.google.com/100396468532572979348"><i class="icon-google-plus"></i></a>
+</div>
+
+    <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>-->
+    <script src="scripts/vendor/jquery.js"></script>
+    <script src="scripts/vendor/t.js"></script>
+    <script src="scripts/helper.js"></script>
+
+    <!-- build:js scripts/scripts.js -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/init.js "></script>
+    <!-- endbuild -->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+        g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+        s.parentNode.insertBefore(g,s)}(document,"script"));
+    </script>
+    </body>
+</html>

@@ -1,0 +1,303 @@
+/************Global**************/
+body {
+  font: 100%/1.5 'Ubuntu', 'Gill Sans', 'Droid Sans', 'Calibri', 'Lucida Grande', 'Trebuchet MS', 'Helvetica Neue', 'Arial', sans-serif;
+  color: #fff;
+  text-align: center; }
+
+a {
+  text-decoration: none;
+  color: #fff; }
+
+a:hover, a:focus {
+  color: #fff; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  outline: 0; }
+
+p {
+  margin: 0 0 1em; }
+
+
+/************End Global**************/
+.big-logo {
+  text-align: center !important;
+  padding: 0em 1em; }
+
+.big-logo img {
+  margin: 0.5em 0 0.5em 0; }
+
+.cell p {
+  margin: 0em 1em; }
+
+
+*, h2 {
+  box-sizing: border-box; }
+
+.current {
+  display: block; }
+
+body {
+  font-weight: lighter;
+    background: #6a205f; }
+
+strong {
+  font-size: 120%; 
+  color: #86A50C;
+text-shadow: 0.05em 0.05em 0.05em black;}    
+
+.row {
+  position: relative; }
+
+.xebia {
+  max-width: 30em;
+  margin-left: auto;
+  margin-right: auto;
+  background: #4D1745;
+  border-radius: 20px;
+  border-style:solid;
+  border-width: 0.5em;
+  border-color:#4D1745;}
+
+.countdown {
+  width: 14em; 
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em 0 0em 0;
+}
+
+.foot {
+  max-width: 30em;
+  font-size: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;}
+
+.cell {
+  max-width: 40em;
+  margin: 0 auto;
+  position: relative;
+  text-align: left;
+  padding-bottom: 1em; }
+
+.cell p {
+  font-style: italic;
+  padding: 1em 1em 0 1em; }
+
+.header .cell {
+  text-align: center;
+  color: #6a205f;
+  text-transform: uppercase;
+  padding-top: 1em; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  padding: 20px 15%; }
+
+form header {
+  margin: 0 0 20px 0; }
+
+form header div {
+  font-size: 90%;
+  color: #999; }
+
+form header h2 {
+  margin: 0 0 5px 0; }
+
+form > div {
+  clear: both;
+  overflow: hidden;
+  padding: 1px;
+  margin: 0 0 10px 0; }
+
+form > div > fieldset > div > div {
+  margin: 0 0 5px 0; }
+
+form > div > label, legend {
+  width: 25%;
+  float: left;
+  padding-right: 10px; }
+
+form > div > div, form > div > fieldset > div {
+  width: 75%;
+  float: right; }
+
+form > div > fieldset label {
+  font-size: 90%; }
+
+fieldset {
+  border: 0;
+  padding: 0; }
+
+input[type=text], input[type=email], input[type=url], input[type=password], textarea {
+  width: 100%;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee; }
+
+input[type=text], input[type=email], input[type=url], input[type=password] {
+  width: 50%; }
+
+input[type=text]:focus, input[type=email]:focus, input[type=url]:focus, input[type=password]:focus, textarea:focus {
+  outline: 0;
+  border-color: #4697e4; }
+
+@media (max-width: 600px) {
+  form > div {
+    margin: 0 0 15px 0; }
+
+  form > div > label, legend {
+    width: 100%;
+    float: none;
+    margin: 0 0 5px 0; }
+
+  form > div > div, form > div > fieldset > div {
+    width: 100%;
+    float: none; }
+
+  input[type=text], input[type=email], input[type=url], input[type=password], textarea, select {
+    width: 100%; } }
+@media (min-width: 1200px) {
+  form > div > label, legend {
+    text-align: center; } }
+/* Hide Navbar by default */
+
+p {
+  text-align: center; }
+
+
+/* https://github.com/adamstac/zocial Copyright (c) 2011 [Sam Collins](http://smcllns.com/) ([@smcllns](http://twitter.com/smcllns)) and [Adam Stacoviak](http://adamstacoviak.com/) ([@adamstac](http://twitter.com/adamstac))
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*/
+
+
+  .hasCountdown {
+    margin-top:-5px; 
+    height: 40px;  
+    width: 100%;
+    background-color: #86A50C;
+    color: white;
+    color: #fff;
+    font: 14px 'Ubuntu',Arial,sans-serif;  
+    border:2px solid;
+    border-radius:10px;
+    -moz-border-radius:10px; /* Old Firefox */
+    font-weight: bold;
+}
+.countdown_rtl {
+        direction: rtl;
+}
+.countdown_row {
+        clear: both;
+        width: 100%;
+        padding: 0px 2px;
+        text-align: center;
+}
+
+.countdown_section {
+        line-height: 28px;
+        display: block;
+        float: left;
+        font-size: 75%;
+        padding-top: 5px;
+        float: left;
+        width: 24%;
+}
+.countdown_amount {
+        font-size: 200%;
+        color: #fff;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+/************End Comment Mode**************/
+/*
+.product-img nav {
+	overflow: hidden;
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+}
+.product-img nav li {
+	display: inline-block;
+	margin: 0 0.2em;
+	border: 1px solid #d7dad3;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	-o-border-radius: 0.5em;
+	-ms-border-radius: 0.5em;
+	border-radius: 0.5em;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+  	-ms-transition: all 0.3s ease-out; 
+  	-o-transition: all 0.3s ease-out; 
+  	transition:  all 0.3s ease-out;
+	
+}
+.product-img nav li:hover, .product-img nav li:focus {
+	border-color: #b0b3ad;
+}
+.product-img nav li.active {
+	border-color: #9d0000;
+}
+.product-img nav li:last-child {
+	margin: 0;
+}
+.product-img nav a {
+	display: block;
+}
+.product-img nav a.active {
+	border-color: #81d8d0;
+}
+.product-img nav li {
+	min-width: 4em;
+	min-height: 1em;
+}
+.product-img nav img {
+	display: block;
+	width: 4em;
+	height: auto;
+}
+*/
+/*Product Form*/
+/*
+.product-form {
+	margin: 0 0 0.5em;
+}
+.field {
+	-webkit-appearance: none;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0.75em 0 0.75em 0;
+	width: 50%;
+	float: left;
+	overflow: hidden;
+}
+.qty-field {
+	padding-right: 0.5em;
+}
+.size-field {
+	padding-left: 0.5em;
+}
+.submit-form {
+	clear: both;
+	margin-bottom: 1em;
+}
+.submit-form input {
+	display: block;
+	width: 100%;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+*/
